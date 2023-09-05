@@ -1,50 +1,17 @@
 
 
-class Pikachu:
-    def __init__(self,name,cost):
+class Pokemon:
+    def __init__(self,name):
         self.name = name
-        self.power = 55
-        self.health = 100
-
-
-
-
-class Charizard:
-    def __init__(self,name,cost):
-        self.name = name
-        self.power = 70
-        self.health = 100
+        self.cost = "1"
+        self.list_pokemon = ['Charizard', 'squirtle', 'Pikachu']
+        self.selected_pokemon = " "
         
 
-
-class Blastoise:
-    def __init__(self,name,cost):
-        self.name = name
-        self.power = 70
-        self.health = 100
+    def selected_pokemon(self):
+        user_input= int(input(" please select a pokemon"))
+        self.picked_pokemon = self.list_pokemon[user_input]
         
 
 
 
-class Venusaur:
-    def __init__(self,name,cost):
-        self.name = name
-        self.power = 70
-        self.health = 100
-        
-
-
-class Ninetails:
-    def __init__(self,name,cost):
-        self.name = name
-        self.power = 60
-        self.health = 100
-    
-
-
-class Arcaine:
-    def __init__(self,name,cost):
-        self.name = name
-        self.power = 55
-        self.health = 100
-        
