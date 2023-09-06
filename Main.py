@@ -1,4 +1,4 @@
-from vending import Vending
+from Vending_Machine import Vending
 
 
 
