@@ -1,8 +1,6 @@
-from Pokemon import Pokemon
+from Pokemon import Pokemon:
+        self.money = 0
 
-def selected_pokemon(self):
-        user_input= int(input(" please select a pokemon"))
-        self.picked_pokemon = self.list_pokemon[user_input]
         
 
 
