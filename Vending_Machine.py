@@ -1,4 +1,4 @@
-from Pokemon import Pokemon, Charizard
+from Pokemon import Pokemon, Charizard, Blastoise
 
 
 
@@ -12,7 +12,8 @@ class Vending():
         user = input("Please enter the amount of money you wish you pay for a pokemon, Min is $1.00 ")
         if user == "1":
             charizard = Charizard()
-            print(f'You may pick from the following pokemon{charizard}')
+            blatoise = Blastoise()
+            print(f'You may pick from the following pokemon{charizard} {blatoise}')
             
     
 
