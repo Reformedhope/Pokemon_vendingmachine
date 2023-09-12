@@ -1,4 +1,4 @@
-from Pokemon import Pokemon, Charizard, Blastoise
+from Pokemon import Pokemon, Charizard, Blastoise, Ninetails, Squirtle
 
 
 
@@ -14,6 +14,8 @@ class Vending():
             charizard = Charizard()
             blatoise = Blastoise()
             print(f'You may pick from the following pokemon{charizard} {blatoise}')
+        elif user == "2":
+
             
     
 
