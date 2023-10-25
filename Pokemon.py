@@ -1,5 +1,3 @@
-
-
 class Pokemon:
     def __init__(self,name):
         self.name = name
@@ -11,38 +9,20 @@ class Lowpokemon:
         self.cost = "2"
 
 
-
-
-
-
-
 class Charizard(Pokemon):
     def __init__(self):
-        super().__init__("charizard")
+        super().__init__("Charizard")
 
 
 class Blastoise(Pokemon):
     def __init__(self):
         super().__init__("Blastoise")
 
-        
-
-
 
 class Squirtle (Lowpokemon):
     def __init__(self):
-        super().__init__("squirtle")
-
-
+        super().__init__("Squirtle")
 
 class Ninetails(Lowpokemon):
     def __init__(self):
         super().__init__("Ninetails")
-
-
-
-    
-        
-
-    
-
