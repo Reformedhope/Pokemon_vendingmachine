@@ -3,9 +3,8 @@
 # vending = Vending()
 # vending.user_funds_amount()
 
-from Dime import Dime
+from Register import Register
 
-dime = Dime()
+register = Register()
 
-print(f"{dime.value}")
-print(format(dime.value, '.9f'))
+print(register.drawer)
