@@ -16,3 +16,12 @@ class Vending():
             print(f"You may pick from the following {ninetails.name} {squirtle.name}")
         else:
             print("Incorrect value")
+
+
+
+    def pokemon_selected(self):
+        users_choice = input("which of those pokemon would you like to purchase?")
+        if users_choice == "ninetails":
+        
+
+        
